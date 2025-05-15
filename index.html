@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naveen Kumar HK | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://wallpaperaccess.com/full/1933976.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px 50px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    header h1 {
+      font-size: 48px;
+      color: #ff4e50;
+    }
+    header p {
+      font-size: 20px;
+      color: #f9d423;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #00f2fe;
+      margin: 0 20px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.3s;
+    }
+    nav a:hover {
+      transform: scale(1.2);
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-bottom: 30px;
+    }
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #00f2fe;
+      position: relative;
+    }
+    section h2::after {
+      content: '';
+      width: 60px;
+      height: 3px;
+      background: #f9d423;
+      display: block;
+      margin: 10px auto 0;
+    }
+    .content-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+      transition: transform 0.5s;
+    }
+    .card:hover {
+      transform: translateY(-10px) rotateY(5deg);
+    }
+    a {
+      color: #00f2fe;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 25px;
+      background: linear-gradient(to right, #f9d423, #ff4e50);
+      color: #000;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Naveen Kumar HK</h1>
+    <p>Aspiring Full Stack Developer | Final Year MCA Student</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate full stack developer with an academic foundation in MCA and hands-on experience in creating practical software solutions. I love turning ideas into real applications using technologies like HTML, CSS, JavaScript, and Python.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="content-grid">
+      <div class="card">HTML, CSS, JavaScript</div>
+      <div class="card">Java</div>
+      <div class="card">Python</div>
+      <div class="card">MySQL</div>
+      <div class="card">Apache</div>
+      <div class="card">Flutter (Basic)</div>
+      <div class="card">WordPress</div>
+      <div class="card">AWS Cloud Basics</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="content-grid">
+      <div class="card">
+        <h3>Milk Diary Management System</h3>
+        <p>A web-based application for managing milk entries, billing, suppliers, and inventory.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+      </div>
+      <div class="card">
+        <h3>Beauty Parlor Management System</h3>
+        <p>A system for scheduling appointments, managing services, billing, and staff data.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, PHP, MySQL</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:naveenhkhk55@gmail.com">naveenhkhk55@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/navihk27" target="_blank">github.com/navihk27</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/naveen-kumar-hk-a9b773215" target="_blank">linkedin.com/in/naveen-kumar-hk</a></p>
+    <a class="btn" href="#">Download Resume</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Naveen Kumar HK. All rights reserved.</p>
+  </footer>
+</body>
+</html>
